@@ -8,10 +8,11 @@ from selenium.webdriver.support.ui import Select
 import time
 
 # Define parâmetros de download do Firefox
+dirPath = os.path.dirname(os.path.abspath(__file__))
 profile = webdriver.FirefoxProfile()
 profile.set_preference("browser.download.folderList", 2) # Não irá para a pasta Downloads
 profile.set_preference("browser.download.manager.showWhenStarting", False) # Não exibe status do download
-profile.set_preference("browser.download.dir", '/home/hissashi/Desktop/Python3/WS_SINAC/') # Local do download
+profile.set_preference("browser.download.dir", dirPath) # Local do download
 profile.set_preference("browser.helperApps.neverAsk.saveToDisk", "text/csv") # Não pede permissão para download de txt ou csv
 
 # Faz com que o Firefox rode no mode headless (sem ser exibido)
@@ -75,7 +76,7 @@ try:
     print(data)
 
     # Salva a data em um arquivo para ser usado posteriormente
-    fo = open("/home/hissashi/Desktop/Python3/WS_SINAC/data_ref.txt", "w")
+    fo = open(dirPath+"/data_ref.txt", "w")
     fo.write(data)
     print("escreveu a data no arquivo")
     fo.close()

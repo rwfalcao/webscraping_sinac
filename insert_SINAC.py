@@ -14,7 +14,12 @@ try:
     conn = psycopg2.connect("dbname=SINAC user=postgres password=1520")
     cursor = conn.cursor()
 
+    cursor.execute("SELECT table_name FROM information_schema.tables WHERE table_name=%s", ('estatisticas_sinac',))
 
+    # Verifica se a tabela existe
+    if not bool(cursor.rowcount):
+        cursor.execute("CREATE TABLE estatisticas_sinac (porte varchar(40), data varchar(40), uf varchar(40), mun varchar(40), cnae varchar(10), qtde integer);")
+        conn.commit()
 
     # Loop que varia de 1 até o tamanho do DataFrame "dados"
     for i in range(1,len(dados)):

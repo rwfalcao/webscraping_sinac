@@ -1,0 +1,128 @@
+1545135921078	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.kIHHO10TH6qt"
+*** You are running in headless mode.
+1545135927444	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1545135927445	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1545135935862	Marionette	INFO	Listening on port 38693
+1545135935893	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:750:13
+
+
+(firefox:5980): GLib-GObject-CRITICAL **: 10:26:55.718: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+
+(firefox:5980): GLib-GObject-CRITICAL **: 10:28:07.201: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+
+(firefox:5980): GLib-GObject-CRITICAL **: 10:29:17.822: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+
+(firefox:5980): GLib-GObject-CRITICAL **: 10:30:29.015: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+
+(firefox:5980): GLib-GObject-CRITICAL **: 10:31:45.696: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+
+(firefox:5980): GLib-GObject-CRITICAL **: 10:32:54.399: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+
+(firefox:5980): GLib-GObject-CRITICAL **: 10:34:03.549: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+
+(firefox:5980): GLib-GObject-CRITICAL **: 10:35:16.329: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+
+(firefox:5980): GLib-GObject-CRITICAL **: 10:36:29.241: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+
+(firefox:5980): GLib-GObject-CRITICAL **: 10:37:39.267: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+
+(firefox:5980): GLib-GObject-CRITICAL **: 10:38:59.660: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+
+(firefox:5980): GLib-GObject-CRITICAL **: 10:40:03.600: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+
+(firefox:5980): GLib-GObject-CRITICAL **: 10:41:14.735: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+
+(firefox:5980): GLib-GObject-CRITICAL **: 10:42:25.597: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+
+(firefox:5980): GLib-GObject-CRITICAL **: 10:43:36.810: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+
+(firefox:5980): GLib-GObject-CRITICAL **: 10:44:49.431: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+
+(firefox:5980): GLib-GObject-CRITICAL **: 10:45:59.112: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+
+(firefox:5980): GLib-GObject-CRITICAL **: 10:47:17.184: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+
+(firefox:5980): GLib-GObject-CRITICAL **: 10:48:23.936: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+
+(firefox:5980): GLib-GObject-CRITICAL **: 10:49:33.536: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+
+(firefox:5980): GLib-GObject-CRITICAL **: 10:50:44.431: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1545137504158	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.94jsnjOKrfWn"
+*** You are running in headless mode.
+1545137507428	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1545137507429	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1545137513597	Marionette	INFO	Listening on port 39597
+1545137513699	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:750:13
+
+
+(firefox:6787): GLib-GObject-CRITICAL **: 10:53:08.482: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+
+(firefox:6787): GLib-GObject-CRITICAL **: 10:54:20.475: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+
+(firefox:6787): GLib-GObject-CRITICAL **: 10:55:31.499: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+
+(firefox:6787): GLib-GObject-CRITICAL **: 10:56:42.515: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+
+(firefox:6787): GLib-GObject-CRITICAL **: 10:57:58.365: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+
+(firefox:6787): GLib-GObject-CRITICAL **: 10:59:07.928: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+
+(firefox:6787): GLib-GObject-CRITICAL **: 11:00:17.352: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+
+(firefox:6787): GLib-GObject-CRITICAL **: 11:01:30.054: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+
+(firefox:6787): GLib-GObject-CRITICAL **: 11:02:42.938: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+
+(firefox:6787): GLib-GObject-CRITICAL **: 11:03:53.414: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+
+(firefox:6787): GLib-GObject-CRITICAL **: 11:05:12.187: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+
+(firefox:6787): GLib-GObject-CRITICAL **: 11:06:15.791: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+
+(firefox:6787): GLib-GObject-CRITICAL **: 11:07:27.777: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+
+(firefox:6787): GLib-GObject-CRITICAL **: 11:08:39.223: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+
+(firefox:6787): GLib-GObject-CRITICAL **: 11:09:50.473: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+
+(firefox:6787): GLib-GObject-CRITICAL **: 11:11:02.517: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+
+(firefox:6787): GLib-GObject-CRITICAL **: 11:12:12.985: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+
+(firefox:6787): GLib-GObject-CRITICAL **: 11:13:28.481: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+
+(firefox:6787): GLib-GObject-CRITICAL **: 11:14:37.066: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+
+(firefox:6787): GLib-GObject-CRITICAL **: 11:15:47.900: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+
+(firefox:6787): GLib-GObject-CRITICAL **: 11:16:59.124: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+
+(firefox:6787): GLib-GObject-CRITICAL **: 11:18:10.342: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+
+(firefox:6787): GLib-GObject-CRITICAL **: 11:19:27.270: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+
+(firefox:6787): GLib-GObject-CRITICAL **: 11:20:37.331: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+
+(firefox:6787): GLib-GObject-CRITICAL **: 11:21:46.089: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+
+(firefox:6787): GLib-GObject-CRITICAL **: 11:23:06.949: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+
+(firefox:6787): GLib-GObject-CRITICAL **: 11:24:09.288: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1545139453403	Marionette	INFO	Stopped listening on port 39597
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x74000F,name=PServiceWorkerManager::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
